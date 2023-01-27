@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    
+    
+     <!--Day1-->   
+    
+    
+    <div id="modal1" class="modal1" style=" border: none; top: 200px; left: 30px; background-color: #eeeeee;">
+  <p class="message" style="text-align: center;">8:00 AM Safari Search</p>
+  <img style="border-radius: 5%; width: 250px; height: auto" src="https://developer.apple.com/news/images/og/safari-og-twitter.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal1').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+     <div id="modal2" class="modal1" style="border: none; top: 300px; left: 200px; background-color: #0085ff">
+  <p style="color: white;" class="message">8:30 AM Checking Email</p>
+        <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal2').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+
+    
+    
+     <div id="modal3" class="modal1" style="border: none; top: 100px; left: 500px; background-color:white">
+  <p class="message">9:12 AM Logging in to SecureID</p>
+       <img style="border-radius: 5%; width: 220px; height: auto" src=" https://play-lh.googleusercontent.com/3ydPKy7aLj9crRr5A4yEMuSRMduQxg-vPxfwtPmObAip6hBHH1meLzzLjh1O7gE9Iehe=w600-h300-pc0xffffff-pd 
+    ">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal3').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+     <div id="modal4" class="modal1" style=" border: none; top: 500px; left: 300px; background-color: #36a98b; color: white;">
+  <p style="text-align: center;" class="message">10:46 AM Looking up <br>Dog Parks</p>
+       <img style="border-radius: 5%; width: 250px; height: auto" src="https://media0.giphy.com/media/VJwck53yG6y8s2H3Og/200w.gif?cid=6c09b952ra683gwzfeis26tx2pa2ulbo02sya50hv97eifaq&rid=200w.gif&ct=g">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal4').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+   <div id="modal5" class="modal1" style="border: none; top: 170px; left: 400px; background-color: #0085ff">
+  <p class="message" style="text-align: center; color: white;">12:20 PM Checking Email</p>
+      <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal5').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+       <div id="modal6" class="modal1" style=" border: none; top: 50px; left: 180px; background-color: #e2f11a;">
+  <p class="message" style="text-align: center;">6:14 PM Looking at <br> forever 21 order</p>
+          <img style="border-radius: 5%; width: 220px; height: auto" src="https://1000logos.net/wp-content/uploads/2021/05/Forever-21-logo.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal6').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+     <div id="modal7" class="modal1" style=" border: none; top: 500px; left: 10px; background-color: #43CC47;">
+  <p class="message">6:47 PM texting a friend</p>
+       <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal7').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+       
+     <div id="modal8" class="modal1" style=" border: none; top: 80px; left: 160px; background-color: #DC143C;">
+  <p style="text-align:center;" class="message">8:20 PM Looking up <br> Bloomington Restaurants</p>
+       <img style="border-radius: 5%; width: 200px; height: auto" src="https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,g_xy_center,h_573,q_60,w_573,x_2038,y_1586/v1/clients/bloomington/FourthStreet_Sept17_19_1e19280d-228a-41f1-a06b-03679adc6af2.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal8').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+    
+    
+       <div id="modal9" class="modal1" style=" border: none; top: 350px; left: 370px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">9:11 PM texting</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal9').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>
+    
+    
+    
+    
+    
+ <!--Day2-->   
+    
+    
+    
+    <div id="modal10" class="modal1" style=" border: none; top: 10px; left: 670px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">11:21 AM texting</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal10').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+    
+     <div id="modal11" class="modal1" style=" border: none; top: 400px; left: 20px; background-color: #0085ff;">
+  <p style="text-align:center;" class="message">12:20 PM Walmart Grocery Pickup</p>
+         <img style="border-radius: 5%; width: 250px; height: auto" src="https://i0.wp.com/dsruptr.com/wp-content/uploads/2019/04/hero-walmart-grocery-pickup-2.jpg?fit=2000%2C1200&ssl=1">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal11').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+     <div id="modal12" class="modal1" style=" border: none; top: 111px; left: 512px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">1:59 PM texting</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal12').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+     <div id="modal13" class="modal1" style=" border: none; top: 154px; left: 470px; background-color: #b23aee;">
+  <p style="text-align:center;" class="message">3:08 PM Looking up Yankee <br> Candle Scents</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://cblproperty.blob.core.windows.net/production/assets/blt84f47538479a02cc-YankeeCandle_Logo_Stacked_Black.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal13').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+     <div id="modal14" class="modal1" style=" border: none; top: 608px; left: 432px; background-color: white;">
+  <p style="text-align:center;" class="message">4:30 PM Directions to <br> Pizza Hut</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://1000logos.net/wp-content/uploads/2017/05/Pizza-Hut-Logo-1999.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal14').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+     <div id="modal15" class="modal1" style=" border: none; top: 50px; left: 170px; background-color: #0085ff;">
+  <p style="text-align:center;" class="message">5:27 PM Checking Email</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal15').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+     <div id="modal16" class="modal1" style=" border: none; top: 30px; left: 300px; background-color: #white;">
+  <p style="text-align:center;" class="message">6:45 PM GPS to Petco</p>
+        <img style="border-radius: 5%; width: 200px; height: auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUku8zSJaJ-lFrxHsZBAvj1rOPZ1ExPreo6w&usqp=CAU">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal16').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+     <div id="modal17" class="modal1" style=" border: none; top: 500px; left: 400px; background-color:black;">
+  <p style="text-align:center; color: white;" class="message">6:46 PM Spotify</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png">
+  <div class="options">
+<header style="color:white;">
+  <span onclick="document.getElementById('modal17').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+     <div id="modal18" class="modal1" style=" border: none; top: 10px; left: 30px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">7:07 PM texting</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal18').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+     <!--Day3-->   
+    
+     <div id="modal19" class="modal1" style=" border: none; top: 240px; left: 100px; background-color: #3eecd5;">
+  <p style="text-align:center;" class="message">9:00 AM Checking Time</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://thumbs.gfycat.com/AnchoredCheapGeese-size_restricted.gif">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal19').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+     <div id="modal20" class="modal1" style=" border: none; top: 210px; left: 75px; background-color: #0085ff;">
+  <p style="text-align:center; color: white;" class="message">10:21 AM Looking at Zillow</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://cdn-1.webcatalog.io/catalog/zillow/zillow-icon-filled-256.png?v=1669863995747">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal20').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+     <div id="modal21" class="modal1" style=" border: none; top: 120px; left: 30px; background-color: #ffcc33;">
+  <p style="text-align:center;" class="message">11:27 AM Looking up <br> Scrambled Eggs Recipes</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://www.realsimple.com/thmb/AffUF3qMTUsYAVgLGVtbSJEooVI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/parm-scrambled-eggs-recipe-0421kit-9bd6c8d64b1e4979a0c36e60ac123dd9.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal21').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+     <div id="modal22" class="modal1" style=" border: none; top: 540px; left: 120px; background-color: #5e1b42;">
+  <p style="text-align:center;color: white;" class="message">11:48 AM Making Freeform <br> Boards</p>
+         <img style="border-radius: 5%; width: 220px; height: auto" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_Freeform.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal22').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+     <div id="modal23" class="modal1" style=" border: none; top: 30px; left: 500px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">12:05 PM FaceTime</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://1000logos.net/wp-content/uploads/2021/12/FaceTime-Logo.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal23').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+     <div id="modal24" class="modal1" style=" border: none; top: 230px; left: 390px; background-color: #white;">
+  <p style="text-align:center;" class="message">12:34 AM Checking Canvas</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://canvas.wfu.edu/app/uploads/sites/12/2019/09/canvas-logo-1024x1020.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal24').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+     <div id="modal25" class="modal1" style=" border: none; top: 480px; left: 180px; background-color: #6f75b4;">
+  <p style="text-align:center;color: white;" class="message">1:23 PM Looking up <br>
+    Tilapia Recipes
+  </p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://thumbs.gfycat.com/SourBrilliantAmericanrobin-size_restricted.gif">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal25').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+     <div id="modal26" class="modal1" style=" border: none; top: 20px; left: 60px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">2:23 PM Checking Texts</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal26').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+     <div id="modal27" class="modal1" style=" border: none; top: 190px; left: 30px; background-color: white;">
+  <p style="text-align:center;" class="message">5:25 PM Looking at Doordash <br> Dasher App</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://1000logos.net/wp-content/uploads/2021/06/DoorDash-logo.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal27').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+     <div id="modal28" class="modal1" style=" border: none; top: 250px; left: 250px; background-color: #66023c;">
+  <p style="text-align:center; color: white;" class="message">5:32 PM Looking up <br>Smoothie Recipes</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://media3.giphy.com/media/1kMBl3iwHj8Iw/giphy.gif">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal28').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    <!--Day4-->  
+    
+    
+    
+      <div id="modal29" class="modal1" style=" border: none; top: 530px; left: 510px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">9:00 AM texting</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal29').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+      <div id="modal30" class="modal1" style=" border: none; top: 40px; left: 400px; background-color: #323b95;">
+  <p style="text-align:center;color: white;" class="message">11:30 AM GPS to Vet</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://imgsrv2.voi.id/HpO09gZIQxpPSpVKdPkkZwaQELHpXUDAgoUw26q-tiA/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xNTE4MjMvMjAyMjAzMzEwODA3LW1haW4uSlBH.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal30').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+      <div id="modal31" class="modal1" style=" border: none; top: 210px; left: 270px; background-color: #e12323;">
+  <p style="text-align:center; color: white;" class="message">12:30 PM Ordering on <br>Mcdonalds App</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://www.shopfood.com/wp-content/uploads/2021/09/mcdonalds-delivery-step-4.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal31').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+      <div id="modal32" class="modal1" style=" border: none; top: 300px; left: 30px; background-color: white;">
+  <p style="text-align:center;" class="message">1:55 PM Duo Mobile</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://itservices.usc.edu/files/2020/04/Duo-Icon.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal32').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+      <div id="modal33" class="modal1" style=" border: none; top: 510px; left: 0px; background-color: #003153;">
+  <p style="text-align:center; color:white;" class="message">7:30 PM Looking At<br>Tilapia Recipe</p>
+         <img style="border-radius: 5%; width: 300px; height: auto" src="https://i.pinimg.com/originals/d3/c0/1b/d3c01b58b3bba1f3223ae9080283f653.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal33').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+      <div id="modal34" class="modal1" style=" border: none; top: 90px; left: 630px; background-color: #0085ff;">
+  <p style="text-align:center; color: white;" class="message">8:57 PM Checking Email</p>
+          <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal34').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    <!--Day5-->  
+    
+          <div id="modal35" class="modal1" style=" border: none; top: 100px; left: 100px; background-color: black;">
+  <p style="text-align:center;color: white;" class="message">8:00 AM Snooze Alarm</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://media.idownloadblog.com/wp-content/uploads/2015/05/iPhone-Alarm.jpg">
+  <div class="options">
+<header style="color:white;">
+  <span onclick="document.getElementById('modal35').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+          <div id="modal36" class="modal1" style=" border: none; top: 50px; left: 250px; background-color: white;">
+  <p style="text-align:center;" class="message">8:58 AM Check Canvas</p>
+          <img style="border-radius: 5%; width: 200px; height: auto" src="https://canvas.wfu.edu/app/uploads/sites/12/2019/09/canvas-logo-1024x1020.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal36').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+          <div id="modal37" class="modal1" style=" border: none; top: 30px; left: 320px; background-color: #0085ff;">
+  <p style="text-align:center; color: white;" class="message">9:25 AM Checking Email</p>
+          <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal37').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+          <div id="modal38" class="modal1" style=" border: none; top: 540px; left: 630px; background-color: #b8d2f2;">
+  <p style="text-align:center;" class="message">3:02 PM Checking Time</p>
+             <img style="border-radius: 5%; width: 200px; height: auto" src="https://thumbs.gfycat.com/AnchoredCheapGeese-size_restricted.gif">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal38').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+          <div id="modal39" class="modal1" style=" border: none; top: 430px; left: 600px; background-color: #43CC47;">
+  <p style="text-align:center;" class="message">5:00 PM texting</p>
+         <img style="border-radius: 5%; width: 200px; height: auto" src="https://i.pinimg.com/originals/f9/f3/af/f9f3af9af7c5b825ad372d555aae3697.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal39').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+          <div id="modal40" class="modal1" style=" border: none; top: 610px; left: 610px; background-color: white;">
+  <p style="text-align:center;" class="message">6:00 PM GPS</p>
+       <img style="border-radius: 5%; width: 200px; height: auto" src="https://imgsrv2.voi.id/HpO09gZIQxpPSpVKdPkkZwaQELHpXUDAgoUw26q-tiA/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy8xNTE4MjMvMjAyMjAzMzEwODA3LW1haW4uSlBH.jpg">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal40').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+          <div id="modal41" class="modal1" style=" border: none; top: 630px; left: 640px; background-color: black;">
+  <p style="text-align:center;" class="message">6:05 PM Spotify</p>
+        <img style="border-radius: 5%; width: 200px; height: auto" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png">
+  <div class="options">
+<header style="color:white;">
+  <span onclick="document.getElementById('modal41').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+          <div id="modal42" class="modal1" style=" border: none; top: 430px; left: 630px; background-color: white;">
+  <p style="text-align:center;" class="message">6:43 PM Duo Mobile</p>
+        <img style="border-radius: 5%; width: 200px; height: auto" src="https://itservices.usc.edu/files/2020/04/Duo-Icon.png">
+  <div class="options">
+<header style="color:black;">
+  <span onclick="document.getElementById('modal42').style.display='none'" class="close-button topright">&times;</span>
+</header>
+  </div>
+</div>    
+    
+    
+    
+    
+ 
+    
+    <div class = "sketch"><script src="sketch.js"></script></div>
+  </body>
+</html>
